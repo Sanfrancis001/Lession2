@@ -1,0 +1,15 @@
+entrypoint = "Main.hs"
+
+hidden = [".ghci", "ghci_wrapper.sh"]
+
+[interpreter]
+command = ["./ghci_wrapper.sh"]
+
+[languages.haskell]
+pattern = "**/*.hs"
+
+[languages.haskell.languageServer]
+start = ["haskell-language-server", "--lsp"]
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix", ".ghci"]
