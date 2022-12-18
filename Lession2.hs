@@ -35,6 +35,8 @@ f4 x y z = x == (y ++ z)
  A: I tried googling but don't have a answer for it until now...
  
    Question 5
- Q: Can you also define in Haskell list of lists? Did we showed any example of that? How would you access the inner most elements?-}
-Sentence :: [[[ Char ]]]
-Sentence = [[" Li " , " onel "], [" Mes " , " si "]]
+ Q: Can you also define in Haskell list of lists? Did we showed any example of that? How would you access the inner most elements?
+ A: Yes, we can.
+    Example. Let's check below. I don't know -}
+gREEting :: [[[ Char ]]]
+gREEting = [[['H','i'],['!']]] 
